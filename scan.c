@@ -17,7 +17,7 @@ int main ()
         
       char name[15] ;
       printf("what is your name : " );
-      fgets(name,15,stdin);
+      fgets(name,15,stdin); ""for use space between two words like name and lasty name"""
       printf("your name is %s",name); */
 
       int num ;
