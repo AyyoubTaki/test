@@ -4,24 +4,24 @@
 
 int main ()
 {
-    int num1,num2;
+    float num1,num2;
     char op;
 
     printf("type first number : ");
-    scanf("%d",&num1);
+    scanf("%f",&num1);
     printf("type op : ");
-    scanf(" %c",&op);
+    scanf(" %c", &op);
     printf("type first number : ");
-    scanf("%d",&num2);
+    scanf("%f",&num2);
   if(op == '+'){
 
-  printf("your resolt is %d + %d = %d",num1,num2,num1+num2);
+  printf("your resolt is %f + %f = %f",num1,num2,num1+num2);
   }else if(op == '-'){
 
-       printf("your resolt is %d - %d = %d",num1,num2,num1-num2);
+       printf("your resolt is %f - %f = %f",num1,num2,num1-num2);
   }else if(op =='*'){
 
-       printf("your resolt is %d * %d = %d",num1,num2,num1*num2);
+       printf("your result is %f * %f = %f",num1,num2,num1*num2);
   }
         return 0;
         
