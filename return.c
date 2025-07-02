@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int chi7aja (int a,int b){
-    int resulte= a+b;
+double chi7aja (double a,double b){
+    double resulte= a+b;
     return resulte ;
 }
     int main (){
+    double x = chi7aja(5,4);
+        printf("%lf",x+10);//return ktkhlik tzid num mora printf
 
-        printf("%d",chi7aja(5,8)+3);//return ktkhlik tzid num mora printf
         return 0;
     } 
      
-

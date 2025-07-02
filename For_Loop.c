@@ -9,6 +9,11 @@ int main ()
       for (int i=0 ; i<5 ;i++){
         printf("%d",nums[i]);
       }
+
+      for (int i=0 ; i<=10;i++){
+
+      printf("\n%d",i);
+      }
   return 0;
 
 }
