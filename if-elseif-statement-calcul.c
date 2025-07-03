@@ -10,7 +10,7 @@ int main ()
     printf("type first number : ");
     scanf("%f",&num1);
     printf("type op : ");
-    scanf(" %c", &op);
+    scanf("%c", &op);
     printf("type first number : ");
     scanf("%f",&num2);
   if(op == '+'){
