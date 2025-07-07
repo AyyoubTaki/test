@@ -10,10 +10,10 @@ int main ()
         printf("%d",nums[i]);
       }
 
-      for (int i=0 ; i<=10;i++){
+      //for (int i=0 ; i<=10;i++){
 
-      printf("\n%d",i);
-      }
+      //printf("\n%d",i);
+      //}
   return 0;
 
 }
